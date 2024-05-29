@@ -2,9 +2,9 @@
 
 Requires MATLAB PDE Toolbox. Tested on MATLAB 2024a. 
 
-`cbrewer` colors from https://github.com/scottclowe/cbrewer2.
-
 Any questions or concerns can be directed to chris.miles@uci.edu.
+
+## Usage
 
 1. `fit_scenarios.m` generates the figure seen in the main text with various fitting
 2. `plot_r_dependencies.m` plots the various inputs to the scenarios found in the supplemental material
@@ -13,3 +13,12 @@ Any questions or concerns can be directed to chris.miles@uci.edu.
 5. `fit_PDE_models.m` fits the models to obtain the parameter values used throughout the other scripts
 6. `sweep_PDEsolves_with_fits.m`generates the visual 2D solutions with the fitted values, seen in the main text figure 
 
+## Credits
+
+`cbrewer` colors from https://github.com/scottclowe/cbrewer2
+
+`multigradient` colormap generator from https://github.com/lrkrol/multigradient
+
+`fminsearchbnd` from https://www.mathworks.com/matlabcentral/fileexchange/8277-fminsearchbnd-fminsearchcon
+
+`frenet` from https://www.mathworks.com/matlabcentral/fileexchange/11169-frenet
